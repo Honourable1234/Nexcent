@@ -1,0 +1,84 @@
+.unseen{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.unseen div:nth-child(1){
+    width: 100%;
+    height: 50vh;
+    margin-left: 70px;
+}
+.unseen div:nth-child(1) img{
+    height: inherit;
+}
+.unseen div:nth-child(2){
+    width: 100%;
+    margin-top: 5vh;
+    margin-right: 70px;
+}
+.unseen div:nth-child(2) h2{
+    font-size: 35px;
+    line-height: 37px;
+    color: #4d4d4d;
+    font-family: 'inter', sans-serif;
+}
+.unseen div:nth-child(2) p{
+    color: #4d4d4d;
+    font-family: 'inter', sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.appbtns{
+    width: 150px;
+    margin-top: 15px;
+}
+@media(max-width: 1300px){
+    .unseen{
+        width: 90%;
+    }
+}
+@media(max-width: 1050px){
+    .unseen div:nth-child(1){
+        width: 400px;
+        margin-left: 0;
+    }
+    .unseen div:nth-child(2){
+        width: 400px;
+        margin-right: 0;
+    }
+}
+@media(max-width: 780px){
+    .unseen div:nth-child(2) h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .unseen div:nth-child(2) p{
+        margin-top: 16px;
+        font-size: 10px;
+    }
+}
+@media(max-width: 650px){
+    .unseen{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .unseen div:nth-child(1){
+        width: 100%;
+        height: 40vh;
+    }
+    .unseen div:nth-child(2){
+        width: 100%;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .appbtns{
+        margin: 20px auto;
+    }
+}
+@media(max-width: 380px){
+    .unseen div:nth-child(1) img{
+        width: 200px;
+    }
+}
