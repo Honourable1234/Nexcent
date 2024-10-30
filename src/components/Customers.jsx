@@ -1,11 +1,11 @@
 import ImageNine from "./../assets/Images/image 9.png"
 import styles from "./../styles/Customers.module.css"
-import ClientImage1 from "./../assets/Images/logo (1).png";
-import ClientImage2 from "./../assets/Images/logo (2).png";
-import ClientImage3 from "./../assets/Images/logo (3).png";
-import ClientImage4 from "./../assets/Images/logo (4).png";
-import ClientImage5 from "./../assets/Images/logo (5).png";
-import ClientImage6 from "./../assets/Images/logo (6).png";
+import ClientImage1 from "./../assets/Images/Logo (1).png";
+import ClientImage2 from "./../assets/Images/Logo (2).png";
+import ClientImage3 from "./../assets/Images/Logo (3).png";
+import ClientImage4 from "./../assets/Images/Logo (4).png";
+import ClientImage5 from "./../assets/Images/Logo (5).png";
+import ClientImage6 from "./../assets/Images/Logo (6).png";
 function Customers() {
     return(
         <div className={styles.customers}>
